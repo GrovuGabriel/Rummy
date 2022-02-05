@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B42B64DE-A77E-420F-ABB9-207F32D5DB5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Rummy</RootNamespace>
+    <AssemblyName>Rummy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conectare Retea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conectare Retea.Designer.cs">
+      <DependentUpon>Conectare Retea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eroareLuatDeJos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eroareLuatDeJos.Designer.cs">
+      <DependentUpon>eroareLuatDeJos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eroarePusJos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eroarePusJos.Designer.cs">
+      <DependentUpon>eroarePusJos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupareAcelasiNr.cs" />
+    <Compile Include="GrupareIndividuala.cs" />
+    <Compile Include="GrupareNrConsec.cs" />
+    <Compile Include="IncheiereJoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncheiereJoc.Designer.cs">
+      <DependentUpon>IncheiereJoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatiiPiese.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="EroarePuncte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EroarePuncte.Designer.cs">
+      <DependentUpon>EroarePuncte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EroareGrupare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EroareGrupare.Designer.cs">
+      <DependentUpon>EroareGrupare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrupariDePeTabla.cs" />
+    <Compile Include="Piesa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShufflePiese.cs" />
+    <Compile Include="Joc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joc.Designer.cs">
+      <DependentUpon>Joc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retea.cs" />
+    <EmbeddedResource Include="Conectare Retea.resx">
+      <DependentUpon>Conectare Retea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eroareLuatDeJos.resx">
+      <DependentUpon>eroareLuatDeJos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eroarePusJos.resx">
+      <DependentUpon>eroarePusJos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncheiereJoc.resx">
+      <DependentUpon>IncheiereJoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joc.resx">
+      <DependentUpon>Joc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EroarePuncte.resx">
+      <DependentUpon>EroarePuncte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EroareGrupare.resx">
+      <DependentUpon>EroareGrupare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Diverse\etaleaza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

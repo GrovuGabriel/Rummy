@@ -1,0 +1,16 @@
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\bin\Release\Rummy.exe.config
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\bin\Release\Rummy.exe
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\bin\Release\Rummy.pdb
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.csproj.AssemblyReference.cache
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.Conectare_Retea.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.Joc.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.eroareetalare.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.eroarepuncte.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.Properties.Resources.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.csproj.GenerateResource.cache
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.exe
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.pdb
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.eroareLuatDeJos.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.eroarePusJos.resources
+C:\Users\Gabi\Documents\Proiect POO\Rummy\Rummy\obj\Release\Rummy.IncheiereJoc.resources
