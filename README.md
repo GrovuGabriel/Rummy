@@ -1,5 +1,5 @@
 # Rummy
-##How to get started
+## How to get started
 1. Open the Rummy.exe file 2 times on your pc
 2. On one instance click on HOST , on the other one on JOIN and start the game
 ## Rules
