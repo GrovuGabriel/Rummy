@@ -12,6 +12,4 @@
 * At the end of your turn you need to place a card on the table for the next player.
 * The game ends when you have only one card on your board (called the closure tile).
 ## Technology
-* Written in C# using Visual Studio
-* .NET framework 4.5
-* The front-end is implemented using Windows Forms
+* Written in C# using Windows Forms
